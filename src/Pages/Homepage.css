@@ -1,0 +1,74 @@
+
+.titles{
+    display: flex;
+    gap: 85px;
+    padding: 10px 30px;
+}
+
+.dropdown{
+    position: relative;
+  display: inline-block;
+}
+.dropdownFont{
+    cursor: pointer;
+
+}
+
+.dropdownFont:hover{
+    color: white;
+  text-shadow:0px 0px 30px white;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+.dropdowncontent{
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 10px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 0.19rem;
+}
+
+.dropdowncontent a{
+    color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-family: ystem-ui, -apple-system, BlinkMa Roboto,
+     Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.dropdowncontent a:hover{
+    background-color: white;
+}
+
+.dropdown:hover .dropdowncontent{
+    display: block;
+}
+
+.trending{
+    display: flex;
+    gap: 22px;
+    cursor: pointer;
+    padding-left: 3.5%;
+}
+
+.sector{
+    border: 1px;
+}
+
+.sector:hover{
+    transform: scale(1.07);
+  transition: all 0.19s ease-in-out;
+}
+
+.trending-image{
+    height: 280px;
+    width: 400px;
+    border-radius: 0.99rem;
+}

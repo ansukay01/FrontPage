@@ -1,0 +1,100 @@
+
+
+.newsFrame{
+    display: grid;
+    grid-template-columns: repeat(3, 6fr);
+    gap: 5px;
+}
+
+.borderLine{
+    padding-left: 23px;
+}
+
+.newsCategories{
+    display: grid;
+    gap: 1px;
+    cursor: pointer;
+}
+
+.newsCategories:hover{
+    transform: scale(1.07);
+  transition: all 0.19s ease-in-out;
+}
+
+.imageGroup{
+    height: 280px;
+    width: 400px;
+    border-radius: 0.5rem;
+}
+
+.headerFont{
+      text-align:justify;
+      font-size: small;
+      font-weight: 300;
+}
+
+.newspage{
+    
+
+}
+
+.detailsFont{
+    font-size: x-large;
+    text-align: center;
+  }
+
+.imageDetails{
+    padding: 30px;
+    margin: auto;
+    width: 60%;
+    align-items: center;
+    position: relative;
+    left: 195px;
+    border-radius: 3rem;
+}
+
+.details{
+   font-size: small;
+   text-align: center;
+}
+
+.product-link{
+    color:white;
+    text-decoration: none;
+}
+
+.imageSize{
+    height: 280px;
+    width: 400px;
+    border-radius: 0.99rem;
+    padding: 10px 15px;
+}
+
+.imageSize:hover{
+    transform: scale(1.07);
+  transition: all 0.19s ease-in-out;  
+}
+
+.imagery{
+    border: 1px;
+    position: relative;
+    cursor: pointer;
+}
+
+.imageText{
+ position: absolute;
+ bottom: 20px;
+ right: 20px;
+ background-color: black;
+ color: white;
+ font-size:12px;
+ font-weight: 100;
+ padding-left: 10px;
+ padding-right: 10px;
+}
+
+.advertCatalogue{
+    display: grid;
+    grid-template-columns: repeat(3, 6fr);
+    gap: 5px;
+}

@@ -1,0 +1,66 @@
+
+.companyFont{
+       text-align: center;
+       margin-top: 100px;
+       cursor: pointer;
+       font-size: larger;
+}
+
+.companyFont:hover{
+    transform: scale(1.07);
+  transition: all 0.19s ease-in-out;
+}
+
+
+.copyrightFont{
+    text-align: center;
+    font-size: 13px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.copyrightFont:hover{
+transform: scale(1.07);
+  transition: all 0.19s ease-in-out;
+}
+
+
+.footer-image{
+    width: 27px;
+    height: 27px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.footer-image:hover{
+    transform: scale(1.07);
+  transition: all 0.19s ease-in-out;
+}
+
+
+.footer-container{
+     display: flex;
+     gap: 35px;
+     padding-left: 3%;
+     margin-top: 20px;
+}
+
+.footer-subhead{
+    font-size: smaller;
+    font-weight: 400;
+    text-align: center;
+    cursor: pointer;
+}
+
+.footer-subhead:hover{
+    transform: scale(1.07);
+  transition: all 0.19s ease-in-out;
+}
+
+
+.footerimageContainer{
+    display: flex;
+    gap: 10px;
+    padding-left: 45%;
+    margin-top: 10px;
+}
